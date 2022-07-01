@@ -16,30 +16,23 @@ html, body{
     height: 100vh;
 }
 
-.iframes-container{
-    background:url(../imagens/frame-iphone.png) no-repeat center;
-    background-size: contain;
-    height: 90vh;
+.celular{
+    display: block;
+    height: 550px;
+    margin: 0 auto;
 }
 
 /* Iframes */
 
 iframe#tela{
-    position: relative;
-    top: 70px;
-    left: 52px;
-    width: 236px;
-    height: 416px;
-}
+    display: block;
+    margin: 0 auto;
 
-iframe#youtube{
     position: relative;
-    top: -60px;
-    left: -452px;
-    width: 213px;
-    height: 376px;
-
-    z-index: 1000;
+    top: -484px;
+    left: -1px;
+    height: 418px;
+    width: 238px;
 }
 
 /* Logotipos */
